@@ -1,0 +1,22 @@
+@media screen and (max-width: 1075px) {
+    #nav-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 601px) {
+    #nav-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    #nav-list nav ul {
+        align-items: center;
+    }
+
+    #sub-links {
+        justify-content: center;
+    }
+
+}

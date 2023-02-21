@@ -1,0 +1,7 @@
+@media screen and (max-width: 1044px) {
+    .swiper-slide-active {
+        width: 100vw !important;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

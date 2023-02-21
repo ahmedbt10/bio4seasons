@@ -1,0 +1,39 @@
+@media screen and (max-width: 836px) {
+    #filter-form {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 0.75rem;
+    }
+
+    #filter-form div {
+        width: 100%;
+    }
+
+    #filter-form div select,
+    input {
+        width: inherit;
+    }
+}
+
+.input-inset-field {
+    position: relative;
+}
+
+.input-inset-field label {
+    position: absolute;
+    font-weight: 700;
+    left: 16px;
+    top: 5px;
+    transition: 0.4s;
+}
+
+.input-inset-field input::placeholder {
+    transform: scale(0.75) translateY(1rem) translateX(-16.5%);
+    font-weight: 400;
+    position: relative;
+    transition: 0.4s;
+}
+
+.input-inset-field input:focus::placeholder {
+    transform: scale(0.9) translateY(0) translateX(-5.5%);
+}

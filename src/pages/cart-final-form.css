@@ -1,0 +1,32 @@
+#final-form div div input {
+    width: 100%;
+}
+
+#delivery-info {
+    font-size: 0.75rem;
+    position: relative;
+    bottom: 0;
+    color: #5E5E5E;
+}
+
+#form-last-section .input-inset-field:first-child {
+    width: 60%;
+}
+
+#form-last-section .input-inset-field:last-child {
+    width: 40%;
+}
+
+@media screen and (max-width: 950px) {
+    #form-last-section .input-inset-field {
+        width: 50% !important;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #form-last-section .input-inset-field {
+        width: 100% !important;
+    }
+
+}

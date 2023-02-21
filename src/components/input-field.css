@@ -1,0 +1,37 @@
+.input-inset-field {
+    position: relative;
+}
+
+.input-inset-field label {
+    position: absolute;
+    font-weight: 700;
+    left: 16px;
+    top: 5px;
+    transition: 0.4s;
+}
+
+.input-inset-field input {
+    color: #8e8e8e;
+    transition: 0.4s;
+}
+
+/* this is to style the input text  */
+
+
+.input-inset-field input::placeholder {
+    transform: scale(0.75) translateY(1rem) translateX(-16.5%);
+    /* color: red !important; */
+    font-weight: 400;
+    position: relative;
+    transition: 0.4s;
+}
+
+.input-inset-field input:focus::placeholder {
+    transform: scale(0.9) translateY(0) translateX(-5.5%);
+}
+
+.no-focus-empty {
+    padding-bottom: 0 !important;
+    font-weight: 400;
+
+}
